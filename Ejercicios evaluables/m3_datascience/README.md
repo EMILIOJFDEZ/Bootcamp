@@ -1,5 +1,3 @@
-
-
 Crear un entorno virtual:
 
 python -m venv .mod3
@@ -38,11 +36,15 @@ IMPORTANTE: cargar el dataset desde CSV desde la carpeta Data porque tendrá nul
     * Limpieza de valores error: 
         * hay columnas que tienen un valor '?', por tanto se deben reemplazar por un valor nan.
 
-    * Cambio de tipo de dato: .astype() a numéricos y textos, por ejemplo a categorical y carat a float32 o float16
+    * En las columnas x, y, z si el valor es cero ponerlo a nan para luego imputarlo
 
     * Limpieza de nulos (limpiar valores NaN):
         * Nulos en columnas continuas: mediana, media
         * Nulos en columnas categóricas: moda, un valor fijo
+
+    * Cambio de tipo de dato: .astype() a numéricos y textos, por ejemplo a categorical y carat a float32 o float16
+
+    * Borrado de duplicados: drop_duplicates()
 
     * Encoding: texto a numérico
         * Uso de la función get_dummies() para encoding one_hot
@@ -71,7 +73,7 @@ IMPORTANTE: cargar el dataset desde CSV desde la carpeta Data porque tendrá nul
 
 * asimetría, curtosis y transformar datos con logaritmo o raíz cuadrada, aplicar sobre precio, visualizar el histograma y/o boxplot por tipo de corte. Opcional ajustar la escala.
 
-* Discretizar la columna precio por barato, medio, caro usando la función pd.cut
+* Discretizar la columna precio en 3-4 opciones por barato, medio, caro usando la función pd.cut
 
 
 * PARTE 4: 30 % visualizaciones:
