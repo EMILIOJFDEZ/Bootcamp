@@ -125,4 +125,3 @@ Entrega:
             * bfill o ffill para rellenar con fechas de las filas anteriores o posteriores
             * Borrar filas que tengan esa columna null y quedarse con las otras si es que son suficientes
             * Hemos decidido eliminar esta columna para simplificar.
-
