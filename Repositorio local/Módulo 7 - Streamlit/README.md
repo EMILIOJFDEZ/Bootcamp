@@ -132,7 +132,7 @@ Tutoría: martes 04/03/2025 - 16:00 a 18:00 en el mismo enlace zoom
 
 Formato entrega:
 
-* Nueva carpeta modulo_7_nombre_apellido_evaluable en el repositorio github que ya tenéis.
+* Carpeta modulo_7_Emilio_Fernández_evaluable en el repositorio github que ya tenéis.
     * app.py (Home)
     * .streamlit/
     * pages/
@@ -145,3 +145,33 @@ Formato entrega:
     * notebooks/
         * pipeline_regresion.ipynb
         * pipeline_clasificacion.ipynb
+
+Métricas
+
+Modelado predictivo:
+
+* Análisis de datos, business intelligence, backend
+    * Preguntas de negocio.
+    * Conexión a base de datos: Desde python o desde clientes UI como workbench o desde consola CLI.
+    * Entender el esquema de la base de datos.
+    * Ver qué consultas existen ya, vistas.
+    * Realizar consultas SQL para obtener información que responda a las preguntas de negocio.
+    * Administrador de base de datos: Entender muy bien el esquema, optimizarlo, crear índices, crear particiones, mejorar consultas para hacerlas más rápidas.
+
+* EDAs
+
+* Modelo regresión
+    * 1. Entrenamiento X_train, Y_train
+        *Fit
+    * 2. Validación X_test, Y_text - Se obtienen  unas predicciones
+        * Predict --> y_pred que comparamos a y_ytest
+        * Métricas que se obtienen a partir de comparar y_test (valores reales) con y_pred
+            * R2, MAE, MSE, RMSE, MAPE
+    * 3. Entrenar con todos los datos disponibles:
+        * Entrenar con X, Y (sin train ni el test)
+    * 4. Exportar y desplegar el modelo
+
+* Modelo clasificación
+
+M7:
+* Al pulsar el botón generar predicción automáticamente aparece el botón para volcar a CSV, una vez pulsado el botón del CSV desaparezca
