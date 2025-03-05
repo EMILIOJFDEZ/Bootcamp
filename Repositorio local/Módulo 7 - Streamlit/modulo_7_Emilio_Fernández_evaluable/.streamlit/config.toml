@@ -2,4 +2,6 @@
 runOnSave = true
 
 [theme]
-base="light"
+base = "dark"
+primaryColor = "#001f3d"
+backgroundColor = "#00005c"

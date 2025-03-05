@@ -4,6 +4,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6, a, p, header {
+    color: white;
+}
+
 .stButton button {
     background-color: #00005c;
     color: white;
@@ -28,14 +32,29 @@ a[data-testid="stSidebarNavLink"]:hover {
     border: none;
 }
 
+.stMarkdownContainer {
+    background-color: #00005c;
+    color: white;
+    border: none;
+}
+
+.stMarkdownContainer:hover {
+    background-color: #00008f;
+    color: white;
+    border: none;
+}
+
 .stAppHeader {
-    background-color:#000028
+    background-color:#000028;
+    color: white;
 }
 
 .stSidebar {
     background-color: #000048;
+    color: white;
 }
 
 .stMain {
     background-color: #00003d;
+    color: white;
 }
