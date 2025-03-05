@@ -1,0 +1,41 @@
+body {
+    background-color: #00005c;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+.stButton button {
+    background-color: #00005c;
+    color: white;
+    border: none;
+}
+
+.stButton button:hover {
+    background-color: #00008f;
+    color: white;
+    border: none;
+}
+
+a[data-testid="stSidebarNavLink"] {
+    background-color: #00005c;
+    color: white;
+    border: none;
+}
+
+a[data-testid="stSidebarNavLink"]:hover {
+    background-color: #00008f;
+    color: white;
+    border: none;
+}
+
+.stAppHeader {
+    background-color:#000028
+}
+
+.stSidebar {
+    background-color: #000048;
+}
+
+.stMain {
+    background-color: #00003d;
+}

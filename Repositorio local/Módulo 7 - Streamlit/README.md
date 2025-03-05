@@ -100,18 +100,19 @@ https://docs.streamlit.io/develop/quick-reference/cheat-sheet
         * st.camera_input
         * st.data_editor
 
-
-## EJERCICIO
-
 Fecha entrega M7: miércoles 05/03/2025 23:59:59 Hora peninsular
 
 Tutoría: martes 04/03/2025 - 16:00 a 18:00 en el mismo enlace zoom
 
+## EJERCICIO
+
 Formato entrega:
 
-* Carpeta modulo_7_Emilio_Fernández_evaluable en el repositorio github que ya tenéis.
+* Carpeta modulo_7_Emilio_Fernández_evaluable en el repositorio github podré los siguientes archivos.
     * app.py (Home)
+    * styles.css
     * .streamlit/
+        * config.toml
     * pages/
         * 1_EDA.py
         * 2_Regresion.py
@@ -122,6 +123,10 @@ Formato entrega:
     * notebooks/
         * pipeline_regresion.ipynb
         * pipeline_clasificacion.ipynb
+    * icons
+        * clasificacion.png
+        * home.png
+        * regresion.png
 
 Dataset: diamonds.
 
@@ -140,6 +145,7 @@ Dataset: diamonds.
     * pipeline_clasificacion.ipynb
     * pipeline_clasificacion.joblib
     * 3_Clasificacion.py con formulario de entrada para introducir datos y hacer prediccion y mostrar en st.metric
+
 * Usar multipáginas
 * Separar apartados con encabezados o container
 * Mostrar predicciones usando st.metric
