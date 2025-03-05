@@ -1,12 +1,16 @@
 import os
-import streamlit as st
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
+import streamlit as st 
+import pandas as pd 
+import seaborn as sns 
+import matplotlib.pyplot as plt 
 import plotly.express as px
 
 # Configuración de la página
-st.set_page_config(page_title='EDA', page_icon=os.path.join("icons", "EDA.png"))
+st.set_page_config(page_title="Análisis de datos (EDA)", page_icon="icons/EDA.png")
+
+# Redirigir a la página principal
+if st.button('Ir a inicio'):
+    st.switch_page('app.py')
 
 # Estilos CSS
 with open("styles.css", "r") as file:

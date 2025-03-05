@@ -4,10 +4,11 @@ import joblib
 import pandas as pd
 
 # Configuración de la página
-st.set_page_config(
-    page_title='Clasificación',
-    page_icon=os.path.join("icons", "clasificacion.png")
-)
+st.set_page_config(page_title="Clasificación de diamantes", page_icon="icons/clasificacion.png")
+
+# Redirigir a la página principal
+if st.button('Ir a inicio'):
+    st.switch_page('app.py')
 
 # Cargar el archivo CSS
 with open("styles.css", "r") as f:
